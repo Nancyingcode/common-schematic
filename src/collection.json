@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "cms-template": {
+      "alias": "cms",
+      "description": "A blank schematic.",
+      "factory": "./cms-template/index#cmsTemplate"
+    }
+  }
+}
